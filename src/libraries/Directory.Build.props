@@ -1,0 +1,26 @@
+<Project>
+
+  <Import Project="..\..\Directory.Build.props" />
+
+
+  <!-- Debug Options -->
+  
+  <PropertyGroup>
+
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+
+    <!-- Disable source link when building locally. -->
+    <DisableSourceLink Condition="'$(DisableSourceLink)' == 'true' or
+                                  '$(ContinuousIntegrationBuild)' != 'true'">true</DisableSourceLink>
+    <ErrorReport>none</ErrorReport>
+
+  </PropertyGroup>
+
+
+  <!-- Test Frameworks -->
+
+  <Import Project="$(RepositoryEngineeringDir)testing\tests.props" Condition="'$(EnableTestSupport)' == 'true'" />
+
+
+</Project>

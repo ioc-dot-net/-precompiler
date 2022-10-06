@@ -1,0 +1,16 @@
+<Project>
+  
+  <!-- Projects To Build -->
+  <ItemGroup>
+    <ProjectToBuild Include="$(RepoRoot)Precompiler.sln" />
+  </ItemGroup>
+
+
+  <!-- Settings -->
+
+  <PropertyGroup>
+    <RestoreUseStaticGraphEvaluation>true</RestoreUseStaticGraphEvaluation>
+    <GenerateRestoreUseStaticGraphEvaluationBinlog>true</GenerateRestoreUseStaticGraphEvaluationBinlog>
+  </PropertyGroup>
+
+</Project>

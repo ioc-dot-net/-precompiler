@@ -1,0 +1,23 @@
+<Project>
+    
+  <PropertyGroup>
+  
+    <!-- Libraries dependencies -->
+    <SystemComponentModelAnnotationsVersion>5.0.0</SystemComponentModelAnnotationsVersion>
+
+    <!-- Code analysis -->
+    <MicrosoftCodeAnalysisVersion>4.3.1</MicrosoftCodeAnalysisVersion>
+    <MicrosoftCodeAnalysisNetAnalyzersVersion>4.3.1</MicrosoftCodeAnalysisNetAnalyzersVersion>
+    <MicrosoftCodeAnalysisCSharpVersion>4.3.1</MicrosoftCodeAnalysisCSharpVersion>
+    <MicrosoftCodeAnalysisCSharpCodeStyleVersion>4.3.1</MicrosoftCodeAnalysisCSharpCodeStyleVersion>
+    <MicrosoftCodeAnalysisCSharpWorkspacesVersion>4.3.1</MicrosoftCodeAnalysisCSharpWorkspacesVersion>
+
+
+    <!-- Testing -->
+    <XUnitVersion>2.4.2</XUnitVersion>
+    <CoverletCollectorVersion>3.1.2</CoverletCollectorVersion>
+    <XUnitRunnerVisualStudioVersion>2.4.5</XUnitRunnerVisualStudioVersion>
+
+  </PropertyGroup>
+
+</Project>

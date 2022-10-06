@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <TestProjectName Condition="'$(TestProjectName)' == ''">$(MSBuildProjectName)</TestProjectName>
+    <TestFramework Condition="'$(TestFramework)' == ''">xunit</TestFramework>
+    <VSTestNoLogo>true</VSTestNoLogo>
+     <!--<EnableCoverageSupport Condition="'$(ContinuousIntegrationBuild)' == 'true'">true</EnableCoverageSupport>--> 
+  </PropertyGroup>
+
+  <!-- xUnit -->
+  <PropertyGroup>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <TestRunnerConfigPath>$(MSBuildThisFileDirectory)xunit.runner.json</TestRunnerConfigPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!--Test Coverage-->
+    <PackageReference Include="coverlet.collector" Version="$(CoverletCollectorVersion)" />
+    <!--xUnit-->
+    <PackageReference Include="xunit" Version="$(XUnitVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitRunnerVisualStudioVersion)" GeneratePathProperty="true" />
+  </ItemGroup>
+
+</Project>

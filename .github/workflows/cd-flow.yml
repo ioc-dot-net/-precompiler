@@ -1,0 +1,45 @@
+name:  Continuous Deployment
+
+on:
+  push:
+    branches:
+      - 'main'
+      - 'develop'    
+      - 'release/**'    
+
+jobs:
+
+  build:
+    runs-on: windows-latest
+    env:
+      PackageOutputPath: '${{ github.workspace }}\package'
+      ContinuousIntegrationBuild": 'true'
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v1
+
+    - name: Build
+      run: |
+        dotnet build  -v:m 
+
+    # - name: Retrieve the certificate
+    #   run: |
+    #     echo $CERTIFICATE_BASE64 | base64 -d > ioc-dot-net.snk
+    #   shell: bash
+    #   env:
+    #     CERTIFICATE_BASE64: ${{secrets.CERTIFICATE_BASE64}}
+
+    # - name: Label Fixed Issues
+    #   uses: gh-bot/fix-labeler@master        
+
+
+    - name: Publish local package
+      run: |
+        dotnet nuget add source --username ioc-dot-net --password ${{ secrets.GITHUB_TOKEN }} --store-password-in-clear-text --name github "https://nuget.pkg.github.com/ioc-dot-net/index.json"
+        # dotnet nuget push '${{ env.PackageOutputPath }}\*' --skip-duplicate --source github

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <Title>Dependency Injection Precompiler</Title>
+    <Description>Source generator</Description>
+
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <TargetFramework Condition="'$(TargetFramework)' == ''">netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+</Project>
