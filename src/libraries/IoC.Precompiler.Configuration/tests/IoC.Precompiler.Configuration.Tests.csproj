@@ -7,7 +7,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\src\IoC.Net.*.csproj" />
+    <ProjectReference Include="..\src\IoC.*.csproj" />
   </ItemGroup>  
 
   

@@ -11,7 +11,7 @@
 
   
   <ItemGroup>
-    <ProjectReference Include="..\..\IoC.Net.Precompiler.Abstractions\src\IoC.Net.Precompiler.Abstractions.csproj" />
+    <ProjectReference Include="..\..\IoC.Precompiler.Abstractions\src\IoC.Precompiler.Abstractions.csproj" />
   </ItemGroup>
 
 </Project>

@@ -17,7 +17,8 @@
     <XUnitVersion>2.4.2</XUnitVersion>
     <CoverletCollectorVersion>3.1.2</CoverletCollectorVersion>
     <XUnitRunnerVisualStudioVersion>2.4.5</XUnitRunnerVisualStudioVersion>
-
+    <MicrosoftCodeAnalysisCSharpTestingXUnitVersion>1.1.1</MicrosoftCodeAnalysisCSharpTestingXUnitVersion>
+    
   </PropertyGroup>
 
 </Project>

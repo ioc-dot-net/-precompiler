@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.32916.344
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.Abstractions", "src\IoC.Net.Precompiler.Abstractions.csproj", "{2A571CED-B99F-4801-AF2F-E138D102C33E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.Abstractions", "src\IoC.Precompiler.Abstractions.csproj", "{2A571CED-B99F-4801-AF2F-E138D102C33E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.Abstractions.Tests", "tests\IoC.Net.Precompiler.Abstractions.Tests.csproj", "{8F876F9B-9ED9-4337-AA52-A02CFF86B9B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.Abstractions.Tests", "tests\IoC.Precompiler.Abstractions.Tests.csproj", "{8F876F9B-9ED9-4337-AA52-A02CFF86B9B1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
