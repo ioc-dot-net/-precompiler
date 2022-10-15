@@ -7,8 +7,8 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IoC.Net.*.csproj" />
-    <ProjectReference Include="..\..\..\Common\tests\TestUtilities\IoC.Net.Test.Utilities.csproj" />
+    <ProjectReference Include="..\..\src\IoC.*.csproj" />
+    <ProjectReference Include="..\..\..\Common\tests\TestUtilities\IoC.Test.Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
