@@ -3,21 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.32804.182
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.SourceGenerator", "src\IoC.Net.Precompiler.SourceGenerator.csproj", "{5A3E243C-C63E-4CD4-AEE8-32B2019C10FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.SourceGenerator", "src\IoC.Precompiler.SourceGenerator.csproj", "{5A3E243C-C63E-4CD4-AEE8-32B2019C10FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.SourceGenerator.Tests", "tests\Tests\IoC.Net.Precompiler.SourceGenerator.Tests.csproj", "{309C11BD-151E-496A-B7DB-EC2D3E95EA7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.SourceGenerator.Tests", "tests\Tests\IoC.Precompiler.SourceGenerator.Tests.csproj", "{309C11BD-151E-496A-B7DB-EC2D3E95EA7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.SourceGenerator.Unit.Tests", "tests\Unit.Tests\IoC.Net.Precompiler.SourceGenerator.Unit.Tests.csproj", "{CBF34452-D9CE-4CE5-A868-328DC75A1826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.SourceGenerator.Unit.Tests", "tests\Unit.Tests\IoC.Precompiler.SourceGenerator.Unit.Tests.csproj", "{CBF34452-D9CE-4CE5-A868-328DC75A1826}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BDC79491-1691-4B0E-AA03-D88664390FB2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{91DA5C26-9BA6-4FD1-9E72-8CEE2C2F87C3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Test.Utilities", "..\Common\tests\TestUtilities\IoC.Net.Test.Utilities.csproj", "{82213986-B1B3-46FF-9562-1B1FABCC3AAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Test.Utilities", "..\Common\tests\TestUtilities\IoC.Test.Utilities.csproj", "{82213986-B1B3-46FF-9562-1B1FABCC3AAD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.Abstractions", "..\IoC.Net.Precompiler.Abstractions\src\IoC.Net.Precompiler.Abstractions.csproj", "{91F5816F-A70E-4C8A-931C-6C9D46EDAD11}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.Abstractions", "..\IoC.Precompiler.Abstractions\src\IoC.Precompiler.Abstractions.csproj", "{91F5816F-A70E-4C8A-931C-6C9D46EDAD11}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Net.Precompiler.Configuration", "..\IoC.Net.Precompiler.Configuration\src\IoC.Net.Precompiler.Configuration.csproj", "{59AAF0E5-13D9-4206-8D00-51522CCDDEFC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IoC.Precompiler.Configuration", "..\IoC.Precompiler.Configuration\src\IoC.Precompiler.Configuration.csproj", "{59AAF0E5-13D9-4206-8D00-51522CCDDEFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -10,7 +10,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\IoC.Net.Precompiler.Configuration\src\IoC.Net.Precompiler.Configuration.csproj" />
+    <ProjectReference Include="..\..\IoC.Precompiler.Configuration\src\IoC.Precompiler.Configuration.csproj" />
   </ItemGroup>
 
   <ItemGroup>

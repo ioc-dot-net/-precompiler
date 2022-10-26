@@ -7,11 +7,8 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IoC.Net.*.csproj" />
-  </ItemGroup>
+    <ProjectReference Include="..\src\IoC.*.csproj" />
+  </ItemGroup>  
 
-  <ItemGroup>
-    <Using Remove="System.Net.Http" />
-  </ItemGroup>
   
 </Project>

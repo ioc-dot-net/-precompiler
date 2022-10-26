@@ -7,16 +7,11 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\IoC.Net.*.csproj" />
-    <ProjectReference Include="..\..\..\Common\tests\TestUtilities\IoC.Net.Test.Utilities.csproj" />
+    <ProjectReference Include="..\..\src\IoC.*.csproj" />
   </ItemGroup>
 
   <ItemGroup>
     <Using Remove="System.Net.Http" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.3.0" />
   </ItemGroup>
   
 </Project>
