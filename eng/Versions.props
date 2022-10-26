@@ -4,7 +4,8 @@
   
     <!-- Libraries dependencies -->
     <SystemComponentModelAnnotationsVersion>5.0.0</SystemComponentModelAnnotationsVersion>
-
+    <SystemComponentModelCompositionVersion>5.0.0</SystemComponentModelCompositionVersion>
+    
     <!-- Code analysis -->
     <MicrosoftCodeAnalysisVersion>4.3.1</MicrosoftCodeAnalysisVersion>
     <MicrosoftCodeAnalysisNetAnalyzersVersion>4.3.1</MicrosoftCodeAnalysisNetAnalyzersVersion>

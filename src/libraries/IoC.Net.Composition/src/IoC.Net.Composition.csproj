@@ -11,4 +11,8 @@
     <TargetFramework Condition="'$(TargetFramework)' == ''">netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="$(SystemComponentModelCompositionVersion)" />
+  </ItemGroup>
+
 </Project>

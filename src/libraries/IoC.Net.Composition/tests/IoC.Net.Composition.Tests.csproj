@@ -13,5 +13,9 @@
   <ItemGroup>
     <Using Remove="System.Net.Http" />
   </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.ComponentModel.Composition" Version="6.0.0" />
+  </ItemGroup>
   
 </Project>
